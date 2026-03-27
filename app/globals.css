@@ -17,12 +17,9 @@ html, body {
 button {
   font-family: inherit;
 }
-
 input, select, textarea {
   font-family: inherit;
 }
-
-/* React Flow overrides */
 .react-flow__node {
   cursor: pointer;
 }
