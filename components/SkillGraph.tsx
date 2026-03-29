@@ -53,14 +53,11 @@ export default function SkillGraph() {
         labelBgStyle: { fill: '#fff', fillOpacity: 0.85 },
         data: { connectionId: c.id },
       })),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     []
   );
 
   const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
-
-  // Sync nodes when store changes
   useEffect(() => {
     setNodes((prev) => {
       const posMap = new Map(prev.map((n) => [n.id, n.position]));
