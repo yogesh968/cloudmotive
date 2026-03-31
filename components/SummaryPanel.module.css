@@ -18,7 +18,6 @@
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
-
 .statsRow {
   display: flex;
   gap: 8px;
