@@ -11,11 +11,9 @@ const SkillGraph = dynamic(() => import('@/components/SkillGraph'), { ssr: false
 
 export default function Home() {
   const init = useStore((s) => s.init);
-
   useEffect(() => {
     init();
   }, [init]);
-
   return (
     <div className={styles.app}>
       <Toolbar />
