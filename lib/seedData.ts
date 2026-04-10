@@ -1,5 +1,4 @@
 import { Person, Skill, Connection } from '@/types';
-
 export const initialPeople: Person[] = [
   { id: 'p1', name: 'Alice Chen', role: 'Frontend Engineer' },
   { id: 'p2', name: 'Bob Martinez', role: 'Backend Engineer' },
@@ -7,7 +6,6 @@ export const initialPeople: Person[] = [
   { id: 'p4', name: 'David Kim', role: 'Data Scientist' },
   { id: 'p5', name: 'Eva Johnson', role: 'Product Designer' },
 ];
-
 export const initialSkills: Skill[] = [
   { id: 's1', name: 'React', category: 'frontend' },
   { id: 's2', name: 'TypeScript', category: 'frontend' },
@@ -18,7 +16,6 @@ export const initialSkills: Skill[] = [
   { id: 's7', name: 'Python', category: 'data' },
   { id: 's8', name: 'Figma', category: 'design' },
 ];
-
 export const initialConnections: Connection[] = [
   { id: 'c1', personId: 'p1', skillId: 's1', proficiency: 'expert' },
   { id: 'c2', personId: 'p1', skillId: 's2', proficiency: 'expert' },
