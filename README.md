@@ -7,9 +7,6 @@ A production-quality interactive graph app to visualize your team's skills, prof
 ![React Flow](https://img.shields.io/badge/React%20Flow-11-purple?style=flat-square)
 ![Zustand](https://img.shields.io/badge/Zustand-5-orange?style=flat-square)
 
----
-
-## What It Does
 
 - Visualizes **People ↔ Skills** relationships on an interactive graph
 - Shows **proficiency levels** via colored edges (Learning / Familiar / Expert)
@@ -18,8 +15,6 @@ A production-quality interactive graph app to visualize your team's skills, prof
 - **Persists data** in localStorage — no backend needed
 - Click any node to open a **detail sidebar**
 - **Summary panel** with team stats, top skills, and category breakdown
-
----
 
 ## Tech Stack
 
