@@ -1,9 +1,5 @@
 # Cloud Motive Project
 
-This is a modern web application built using **Next.js**, bootstrapped with `create-next-app`.
-
-It uses the **App Router**, optimized fonts, and follows best practices for scalable and performant applications.
-
 ---
 
 ## 📌 Features
@@ -20,26 +16,9 @@ It uses the **App Router**, optimized fonts, and follows best practices for scal
 ## 🛠️ Tech Stack
 
 - **Frontend:** Next.js, React
-- **Styling:** CSS / Tailwind (if used)
+- **Styling:** CSS 
 - **Font Optimization:** next/font (Geist font)
 - **Package Manager:** npm / yarn / pnpm / bun
-
----
-
-## 📂 Project Structure
-
-```
-project-root/
-│
-├── app/                # Main application folder (App Router)
-│   ├── page.tsx        # Home page
-│   └── layout.tsx      # Root layout
-│
-├── public/             # Static assets
-├── styles/             # Global styles (if any)
-├── package.json        # Dependencies & scripts
-└── next.config.js      # Next.js configuration
-```
 
 ---
 
