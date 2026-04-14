@@ -140,7 +140,17 @@ export default function SkillGraph() {
         <span className={styles.legendTitle}>Proficiency</span>
         {(['learning', 'familiar', 'expert'] as const).map((p) => (
           <div key={p} className={styles.legendItem}>
-            <span className={styles.legendDot} style={{ background: PROFICIENCY_COLORS[p] }} />
+            {p === 'learning' ? (
+              <span className={styles.legendLineDotted} style={{ borderColor: PROFICIENCY_COLORS[p] }} />
+            ) : (
+              <span
+                className={styles.legendLine}
+                style={{
+                  background: PROFICIENCY_COLORS[p],
+                  height: p === 'expert' ? '3px' : '2px',
+                }}
+              />
+            )}
             <span>{p.charAt(0).toUpperCase() + p.slice(1)}</span>
           </div>
         ))}

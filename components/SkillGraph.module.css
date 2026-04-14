@@ -54,9 +54,16 @@
   font-weight: 500;
 }
 
-.legendDot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
+.legendLine {
+  width: 28px;
+  height: 2.5px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.legendLineDotted {
+  width: 28px;
+  height: 0;
+  border-top: 2.5px dashed;
   flex-shrink: 0;
 }
